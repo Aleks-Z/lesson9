@@ -40,7 +40,11 @@
             android:layout_height="wrap_content"
             android:text="Humidity"
             android:id="@+id/textView4" android:layout_gravity="left|center_vertical"/>
-    <LinearLayout
+	<Space
+			android:layout_width="fill_parent"
+			android:layout_height="80dp"
+			/>
+	<LinearLayout
             android:orientation="horizontal"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" android:layout_gravity="left|center_vertical">
